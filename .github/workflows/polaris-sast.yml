@@ -26,6 +26,9 @@ jobs:
           polaris_application_name: HippotechCI
           polaris_project_name: HippotechCI
           
+          coverity_build_command: mvn clean package -DskipTests
+          coverity_clean_command: mvn clean
+
           ### PULL REQUEST COMMENTS: Uncomment below to enable
           # polaris_prComment_enabled: true 
           # github_token: ${{ secrets.GITHUB_TOKEN }} # Required when PR comments is enabled
