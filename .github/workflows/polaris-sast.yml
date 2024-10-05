@@ -23,8 +23,8 @@ jobs:
           polaris_assessment_types: "SAST"
           
           ### SCANNING: Optional fields
-          polaris_application_name: HippotechCI
-          polaris_project_name: HippotechCI
+          polaris_application_name: HippotechComparison
+          polaris_project_name: pgst-0005-polaris
           
           coverity_build_command: mvn clean package -DskipTests
           coverity_clean_command: mvn clean
